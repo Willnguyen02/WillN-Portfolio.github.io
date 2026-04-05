@@ -1,439 +1,416 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>William Nguyen — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-<html>
-	<head>
-		<title>William's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">WN</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <!-- Hero -->
+  <section class="hero" id="about">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+<h1 class="hero-name">William Nguyen</h1>
+        <h2 class="hero-title">IT Operations Specialist</h2>
+        <p class="hero-summary">
+          I build and operate the systems that keep enterprises running. At Proofpoint, I deploy enterprise-wide AI agents, manage device lifecycles for thousands of employees, and drive automation that eliminates repetitive work — sitting at the intersection of IT operations and intelligent automation.
+        </p>
+        <div class="hero-tags">
+          <span class="tag">IT Operations</span>
+          <span class="tag">AI Agents</span>
+          <span class="tag">Microsoft Copilot Studio</span>
+          <span class="tag">Power Platform</span>
+          <span class="tag">ML / Data Science</span>
+        </div>
+        <div class="hero-links">
+          <a href="#experience" class="btn btn-primary">View Experience</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <div class="avatar">
+            <img src="images/pfp2.jpg" alt="William Nguyen"/>
+          </div>
+        </div>
+        <div class="stat-cards">
+          <div class="stat-card">
+            <span class="stat-num">7,000+</span>
+            <span class="stat-label">Employees Reached</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">40%</span>
+            <span class="stat-label">Ticket Reduction</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">4.9/5</span>
+            <span class="stat-label">Lifetime CSAT Score</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				<!-- Intro -->
-					<section class="intro">
-						<header>
-							<h1>William Nguyen</h1>
-							<p><b>An M.S. in Data Science student at UC Riverside and aspiring Machine Learning Engineer, passionate about developing data-driven solutions and applying machine learning and analytics to solve real-world problems.</b></p>
-							<!-- <p><b>M.S. Data Science student from the University of California, Riverside.</b></p> -->
-							<p><b>Let's Connect! <a href="https://www.linkedin.com/in/will02/", target="_blank">Linkedin</a> / <a href="https://github.com/Willnguyen02" target="_blank">Github</a> / <a href="mailto:William3709@gmail.com" target="_blank">Email</a></b></p>
-							<ul class="actions">
-								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-							</ul>
-						</header>
-						<div class="content">
-							<span class="image fill" data-position="top"><img src="images/front_page_pic.jpg" alt="Profile Picture" /></span>
-						</div>
-					</section>
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Career</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>About Me</h2>
-						</header>
-						<div class="content">
-							<p>As a recent graduate with a deep passion for technology and data, I’m eager to apply and expand my skills in real-world environments. I thrive on learning and growth, constantly seeking opportunities to turn complex data into meaningful insights. With a foundation in programming, analytics, and modern tools, I’m ready to contribute while continuing to develop as a data professional.</p>
-							<p>With experience in Python, SQL, statistics, and cloud computing, combined with a passion for technology and data, I am eager to apply my skills and knowledge to real-world challenges in the field of data science. Having a background in both business and technology, I hope to offer a unique perspective that combines strategic thinking with technical expertise. Some of my current academic interest include data engineering, AI/ML engineering, cloud computing, and software engineering.</p>
-						</div>
-					</section>
+      <div class="timeline">
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Skills & Education</h2>
-						</header>
-						<div class="content">
-							<h2><i>Education</i></h2>
-							<ul>
-								<li><strong>University of California, Riverside</strong> - Master's of Science in Engineering, Data Science <i>(2024-2026)</i></li>
-								<li><strong>San Jose State University</strong> - Bachelor's of Science, Management Information Systems <i>(2020-2024)</i></li>
-							</ul>
-							<h2><i>Skills</i></h2>
-							<ul>
-								<li><strong>Technical Skills: </strong>Predictive Modeling, Statistical Modeling, Data Manipulation, Data Visualization, Data Modeling, Webscraping</li>
-								<li><strong>Programming Languages & Libraries: </strong>Python, SQL, HTML, Pandas, NumPy, SciKit-Learn, Matplotlib</li>
-								<li><strong>Tools & Technologies: </strong>Tableau, MySQL, Google Colab, Excel, Fit, Github, Jira</li>
-								<li><strong>Certifications: </strong>Microsoft Azure DP-900 (Azure Data Fundamentals)</li>
-							</ul>
-						</div>
-					</section>
+        <div class="timeline-item featured">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="card-top">
+              <div>
+                <h3 class="card-title">IT Operations Specialist</h3>
+                <div class="card-meta">
+                  <span class="company">Proofpoint</span>
+                  <span class="sep">·</span>
+                  <span class="location">Sunnyvale, CA</span>
+                </div>
+              </div>
+              <div class="card-date">Feb 2026 – Present</div>
+            </div>
+            <ul class="card-bullets">
+              <li>Engineered an enterprise-wide Copilot IT Agent deployed to over <strong>7,000 employees</strong>, reducing the IT helpdesk ticketing queue by <strong>40%</strong> through intelligent ticket deflection and AI-driven self-service resolution.</li>
+              <li>Migrated the firm's internal knowledge base from Atlassian Confluence to SharePoint and restructured its architecture for optimized <strong>Copilot RAG integration</strong>, improving AI retrieval accuracy and content discoverability.</li>
+              <li>Designed and deployed custom GPT models and AI agents across multiple business units, enabling personalized <strong>AI workflows</strong> tailored to each team's operations.</li>
+              <li>Leveraged <strong>Microsoft Power Platform</strong> to govern agent usage, manage compute budgets, and build automated deployment pipelines for AI solutions.</li>
+            </ul>
+            <div class="card-chips">
+              <span class="chip">Microsoft Azure</span>
+              <span class="chip">Copilot Studio</span>
+              <span class="chip">ChatGPT</span>
+              <span class="chip">Claude</span>
+              <span class="chip">Power Platform</span>
+              <span class="chip">Power Automate</span>
+              <span class="chip">Power Apps</span>
+              <span class="chip">SharePoint</span>
+              <span class="chip">Jira</span>
+            </div>
+          </div>
+        </div>
 
-				<!-- Section -->
-					<section id="first">
-						<header>
-							<h2>Experience</h2>
-						</header>
-						<div class="content">
-							<!--Experience 1-->
-							<h2><i>Data Analyst & Entry Intern</i></h2>
-							<h4><b>The Marcus Harris Foundation</b> (Aug 2024 - Nov 2024)</h4>
-							<p>As a Data Entry & Analyst Intern, I researched and compiled data on 500+ nonprofit organizations across Ohio monthly using the IRS tax-exempt database. I managed and maintained accurate records for over 125 nonprofits weekly, ensuring data integrity in internal systems. My work supported outreach efforts by expanding and verifying the foundation’s mailing list, with a focus on mid-sized nonprofits in community support and arts education. I also conducted market research and optimized data in Google Sheets for efficient use in outreach campaigns.</p>
-							<!--Experience 2-->
-							<h2><i>Digital Transformation Intern</i></h2>
-							<h4><b>Petrinovich Pugh & Co, LLP</b> (Apr 2023 - Feb 2024)</h4>
-							<p>As a Digital Transformation Intern, I enhanced firm-wide efficiency by designing and deploying automation workflows using Microsoft Power Automate, Power Apps, and Forms. My solutions streamlined manual processes and were adopted by over 80% of the accounting staff. I also transitioned legacy systems to modern platforms and published automated forms on SharePoint for organization-wide use. On the IT side, I supported software and hardware troubleshooting, especially for key accounting tools like CCH Engagement and QuickBooks. I played a key role in onboarding/offboarding 40+ team members and directly managed the software migration process for over 50 accountants, including firm leadership. My contributions helped reduce costs, improve productivity, and support international IT expansion initiatives.</p>
-							<!--Experience 3-->
-							<h2><i>Business Analyst & Consultant</i></h2>
-							<h4><b>SJSU Marketing Association</b> (Feb 2023 - Dec 2023)</h4>
-							<p>As a Consultant, I collaborated with a cross-functional team to deliver strategic insights and actionable solutions for clients over a four-month engagement. My responsibilities included conducting SWOT analyses, developing buyer personas, and performing competitor research to address internal and external business challenges. I contributed to improving client productivity and engagement by implementing agile practices and designing Gantt charts to manage shifting priorities. I also participated in weekly client meetings to present project milestones, gather feedback, and refine strategies to meet evolving business needs.</p>
-							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
-						</div>
-					</section>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="card-top">
+              <div>
+                <h3 class="card-title">Information Technology Intern</h3>
+                <div class="card-meta">
+                  <span class="company">Proofpoint</span>
+                  <span class="sep">·</span>
+                  <span class="location">Sunnyvale, CA</span>
+                </div>
+              </div>
+              <div class="card-date">Sep 2025 – Feb 2026</div>
+            </div>
+            <ul class="card-bullets">
+              <li>Resolved over <strong>150 IT support tickets per week</strong> on average, maintaining a lifetime CSAT score of <strong>4.9/5</strong>.</li>
+              <li>Managed company-wide device lifecycle using <strong>Intune and Jamf</strong>, including provisioning, managing, and troubleshooting for Windows and macOS endpoints.</li>
+              <li>Conducted new hire IT onboarding orientation for all new hires at the Sunnyvale headquarters location.</li>
+              <li>Supported the AV team in a large-scale town hall for over <strong>7,000 employees</strong> by managing microphone setups, Zoom configurations, and audio checks.</li>
+            </ul>
+            <div class="card-chips">
+              <span class="chip">Microsoft 365</span>
+              <span class="chip">Microsoft Azure</span>
+              <span class="chip">Okta</span>
+              <span class="chip">GlobalProtect VPN</span>
+              <span class="chip">Active Directory</span>
+              <span class="chip">Intune</span>
+              <span class="chip">Jamf</span>
+              <span class="chip">AssetSonar</span>
+              <span class="chip">Jira</span>
+            </div>
+          </div>
+        </div>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Projects</h2>
-						</header>
-						<div class="content">
-							<p>Driven by curiosity and a passion for solving real-world problems with data, I’ve completed a variety of hands-on projects that demonstrate my ability to work with large datasets, apply machine learning, data processing, and visualization techniques. These projects reflect both my technical foundation and my commitment to continuous learning</p>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="card-top">
+              <div>
+                <h3 class="card-title">Digital Transformation Intern</h3>
+                <div class="card-meta">
+                  <span class="company">Petrinovich Pugh &amp; Co., LLP</span>
+                  <span class="sep">·</span>
+                  <span class="location">San Jose, CA</span>
+                </div>
+              </div>
+              <div class="card-date">Apr 2023 – Feb 2024</div>
+            </div>
+            <ul class="card-bullets">
+              <li>Built and deployed Power Automate &amp; Power Apps workflows and automated accounting forms adopted by <strong>80%+ of firm accountants</strong>, eliminating manual redundant processes.</li>
+              <li>Led firm-wide accounting software migrations; personally migrated <strong>50+ accountants</strong> including managing partners with zero billing disruption.</li>
+              <li>Onboarded and offboarded <strong>40+ staff</strong> across all levels; managed Active Directory user provisioning and access control.</li>
+            </ul>
+            <div class="card-chips">
+              <span class="chip">Power Automate</span>
+              <span class="chip">Power Apps</span>
+              <span class="chip">Microsoft Azure</span>
+              <span class="chip">Active Directory</span>
+              <span class="chip">ConnectWise</span>
+              <span class="chip">QuickBooks</span>
+            </div>
+          </div>
+        </div>
 
-							<!-- Section -->
-								<section>
-									<header>
-										<h3><a href="https://github.com/Willnguyen02/X-Ray-Medical-Diagnosis-Predictor", target="_blank">X-Ray Medical Diagnosis Predictor</a></h3>
-										<p>Medical Diagnosis Multi-Label Classification Analysis with Convolutional Neural Network</p>
-									</header>
-									<div class="content">
-										<h5><i>Present</i></h5>
-										<ul>
-											<li>Developed a multi-label classification machine learning model using convolutional neural networks (TensorFlow) that diagnoses patients for lung diseases based on X-Ray images</li>
-											<li>Extracted, cleaned, and processed over 120,000 X-Ray images from over 30,000 unique patients</li>
-											<li>Developed a front-end web-based dashboard highlighting key trends in patient data using StreamLit</li>
-										</ul>
-									</div>
-								</section>
+      </div>
+    </div>
+  </section>
 
-							<!-- Section -->
-								<section>
-									<header>
-										<h3><a href="https://github.com/Willnguyen02/E-commerce-Sales-Analytics", target="_blank">E-commerce Sales Analysis</a></h3>
-										<p>E-commerce Sales Analysis with SQL Querying and Tableau Visualization</p>
-									</header>
-									<div class="content">
-										<h5><i>Present</i></h5>
-										<ul>
-											<li>Conducted exploratory data analysis (EDA) using SQL to uncover patterns in user purchasing behavior and seasonal sales fluctuations</li>
-											<li>Queried and analyzed e-commerce sales data using MySQL to extract actionable insights on customer behavior, product performance, and revenue trends</li>
-											<li>Designed and built a dynamic Tableau dashboard to visualize key performance indicators (KPIs), enabling data-driven business decisions for stakeholders</li>
-										</ul>
-									</div>
-								</section>
+  <!-- Projects -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Work</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
 
-							<!-- Section -->
-								<section>
-									<header>
-										<h3><a href="https://github.com/Willnguyen02/Stack-Overflow-Companies-Web-Scraper", target="_blank">Stack Overflow Companies Web Scraper</a></h3>
-										<p>Stack Overflow Company Data Extraction and Preparation via Web Scraping</p>
-									</header>
-									<div class="content">
-										<h5><i>Oct 2024</i></h5>
-										<ul>
-											<li>Developed web scraping scripts using Python's BeautifulSoup to efficiently extract structured data from over 5+ web pages</li>
-											<li>Automated web scraping process, reducing manual data collection time and improving efficiency</li>
-											<li>Provided potential explanations for data patterns and trends discovered</li>
-										</ul>
-									</div>
-								</section>
+      <div class="projects-solo">
 
-						</div>
-					</section>
+        <a href="https://github.com/Willnguyen02/Medical-Imaging-Diagnosis-Predictor" target="_blank" rel="noopener noreferrer" class="project-card project-featured">
+          <div class="project-header">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 12.75l6 6 9-13.5"/></svg>
+            </div>
+            <span class="project-status active">Active</span>
+          </div>
+          <h3 class="project-title">X-Ray Medical Diagnosis Predictor</h3>
+          <p class="project-desc">
+            Multi-label CNN pipeline using PyTorch to classify lung diseases from chest X-rays, trained on over 120,000 images spanning 30,000+ unique patients. Benchmarked multiple architectures and deployed an interactive Streamlit web app for real-time predictions.
+          </p>
+          <ul class="project-bullets">
+            <li>Built various multi-label CNN models using PyTorch to classify lung diseases from over <strong>120,000 chest X-rays</strong> spanning over <strong>30,000 patients</strong>.</li>
+            <li>Benchmarked ResNet18, DenseNet121, custom CNN, and MLP models for multi-label classification, identifying the highest-performing architecture for lung disease detection.</li>
+            <li>Utilized Streamlit to develop a web app enabling users to select models and input X-ray images for real-time disease predictions.</li>
+          </ul>
+          <div class="project-stack">
+            <span class="chip chip-accent">Python</span>
+            <span class="chip chip-accent">PyTorch</span>
+            <span class="chip chip-accent">CNN</span>
+            <span class="chip chip-accent">Streamlit</span>
+          </div>
+        </a>
 
-					<!-- Section -->
-					<section>
-						<header>
-							<h2>Let's Connect!</h2>
-						</header>
-						<div class="content">
-							<ul>
-								<h3>
-									<a href="https://www.linkedin.com/in/will02/" target="_blank"><li class="icon brands fa-linkedin">LinkedIn</li></a>
-									<a href="https://github.com/Willnguyen02" target="_blank"><li class="icon brands fa-github">GitHub</li></a>
-									<a href="mailto:William3709@gmail.com" target="_blank"><li class="icon solid fa-envelope">Email</li></a>
-								</h3>
-							</ul>
-						</div>
-					</section>
+      </div>
+    </div>
+  </section>
 
-				<!-- Elements -->
-				<!--
-					<section>
-						<header>
-							<h2>Elements</h2>
-						</header>
-						<div class="content">
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Toolkit</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
 
-							<section>
-								<header>
-									<h3>Text</h3>
-								</header>
-								<div class="content">
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<hr />
-									<h5>Blockquote</h5>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h5>Preformatted</h5>
-									<pre><code>i = 0;
+      <div class="skills-grid">
 
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
+        <div class="skill-group">
+          <div class="skill-group-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/></svg>
+          </div>
+          <h3 class="skill-group-title">AI / Automation</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Microsoft Copilot Studio</span>
+            <span class="skill-tag">ChatGPT</span>
+            <span class="skill-tag">Claude Suite</span>
+            <span class="skill-tag">Power Automate</span>
+            <span class="skill-tag">Power Apps</span>
+            <span class="skill-tag">Power Platform</span>
+            <span class="skill-tag">LLM Integration</span>
+            <span class="skill-tag">Prompt Engineering</span>
+            <span class="skill-tag">Agentic Workflows</span>
+            <span class="skill-tag">Enterprise AI Deployment</span>
+            <span class="skill-tag">RAG Architecture</span>
+          </div>
+        </div>
 
-print 'Sorted in ' + i + ' iterations.';</code></pre>
-								</div>
-							</section>
+        <div class="skill-group">
+          <div class="skill-group-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3"/></svg>
+          </div>
+          <h3 class="skill-group-title">IT Operations</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Hardware Provisioning</span>
+            <span class="skill-tag">Software Deployment</span>
+            <span class="skill-tag">User Account Management</span>
+            <span class="skill-tag">Active Directory</span>
+            <span class="skill-tag">Asset Management</span>
+            <span class="skill-tag">MDM</span>
+            <span class="skill-tag">Intune</span>
+            <span class="skill-tag">Jamf</span>
+            <span class="skill-tag">Okta</span>
+            <span class="skill-tag">Microsoft Azure</span>
+            <span class="skill-tag">SharePoint</span>
+            <span class="skill-tag">Jira</span>
+          </div>
+        </div>
 
-							<section>
-								<header>
-									<h3>Lists</h3>
-								</header>
-								<div class="content">
+        <div class="skill-group">
+          <div class="skill-group-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/></svg>
+          </div>
+          <h3 class="skill-group-title">ML / Data Science</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">Seaborn</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Jupyter</span>
+            <span class="skill-tag">Google Colab</span>
+          </div>
+        </div>
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+      </div>
+    </div>
+  </section>
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+  <!-- Education -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
+      <div class="edu-grid">
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-							</section>
+        <div class="edu-card edu-featured">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/></svg>
+          </div>
+          <div class="edu-content">
+            <div class="edu-degree">Master's of Science in Engineering</div>
+            <div class="edu-field">Data Science</div>
+            <div class="edu-school">University of California, Riverside</div>
+            <div class="edu-year">2024 – 2026</div>
+          </div>
+        </div>
 
-							<section>
-								<header>
-									<h3>Table</h3>
-								</header>
-								<div class="content">
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
+        <div class="edu-card">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/></svg>
+          </div>
+          <div class="edu-content">
+            <div class="edu-degree">Bachelor's of Science</div>
+            <div class="edu-field">Management Information Systems</div>
+            <div class="edu-school">San Jose State University</div>
+            <div class="edu-year">2020 – 2024</div>
+          </div>
+        </div>
 
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</div>
-							</section>
+        <div class="edu-card cert-card">
+          <div class="edu-icon cert-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-.702 3.107 3.745 3.745 0 01-3.107.702 3.745 3.745 0 01-3.068 1.593c-1.268 0-2.39-.63-3.068-1.593a3.745 3.745 0 01-3.107-.702 3.745 3.745 0 01-.702-3.107A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 01.702-3.107 3.745 3.745 0 013.107-.702A3.745 3.745 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.745 3.745 0 013.107.702 3.745 3.745 0 01.702 3.107A3.745 3.745 0 0121 12z"/></svg>
+          </div>
+          <div class="edu-content">
+            <div class="edu-degree">Certification</div>
+            <div class="edu-field">Microsoft Azure DP-900 — Data Fundamentals</div>
+            <div class="edu-school">Microsoft</div>
+            <div class="edu-year">Oct 2024</div>
+          </div>
+        </div>
 
-							<section>
-								<header>
-									<h3>Buttons</h3>
-								</header>
-								<div class="content">
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button large">Large</a></li>
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</div>
-							</section>
+      </div>
+    </div>
+  </section>
 
-							<section>
-								<header>
-									<h3>Form</h3>
-								</header>
-								<div class="content">
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</div>
-							</section>
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Reach Out</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
 
-						</div>
-					</section>
-				-->
+      <div class="contact-grid">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <a href="mailto:william3709@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">William3709@gmail.com</span>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
 
-	</body>
+        <a href="tel:6692655182" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">(669) 265-5182</span>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+        <a href="https://linkedin.com/in/will02/" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/will02/</span>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+        <a href="https://github.com/Willnguyen02" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/Willnguyen02</span>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">William Nguyen · IT Operations Specialist · Sunnyvale, CA</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
